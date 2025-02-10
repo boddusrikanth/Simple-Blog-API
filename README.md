@@ -18,10 +18,11 @@ A simple blog API built using Django REST Framework (DRF) that allows users to c
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/YOUR-USERNAME/Simple-Blog-API.git
-cd Simple-Blog-API
+cd Simple-Blog-API```
+
 **### 2️⃣ Create a virtual environment**
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+``` python -m venv venv
+source venv/bin/activate```  # On Windows: venv\Scripts\activate
 **### 3️⃣ Install dependencies **
 pip install -r requirements.txt
 
