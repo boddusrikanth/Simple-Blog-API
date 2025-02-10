@@ -21,26 +21,29 @@ git clone https://github.com/boddusrikanth/Simple-Blog-API.git
 cd Simple-Blog-API
 ```
 
-**### 2️⃣ Create a virtual environment**
+### 2️⃣ Create a virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
 ```
 
-**### 3️⃣ Install dependencies 
-**```bash
+### 3️⃣ Install dependencies 
+```bash
 pip install -r requirements.txt
 ```
 
-**### 4️⃣ Apply migrations & create superuser **
-```bash python manage.py migrate
+### 4️⃣ Apply migrations & create superuser 
+```bash
+python manage.py migrate
 python manage.py createsuperuser
 ```
 
-**###5️⃣ Run the server**
+### 5️⃣ Run the server
+```
 python manage.py runserver
+```
 
-Your API is now running at http://127.0.0.1:8000/
+- Your API is now running at http://127.0.0.1:8000/
 
 🔥 API Endpoints
 Method	Endpoint	Description
