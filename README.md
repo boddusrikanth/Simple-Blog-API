@@ -45,10 +45,4 @@ python manage.py runserver
 
 - Your API is now running at http://127.0.0.1:8000/
 
-🔥 API Endpoints
-Method	Endpoint	Description
-GET	/api/posts/	List all blog posts
-POST	/api/posts/	Create a new post
-GET	/api/posts/{id}/	Retrieve a single post
-PUT	/api/posts/{id}/	Update an existing post
-DELETE	/api/posts/{id}/	Delete a post
+### 🔥 API Endpoints
